@@ -8,6 +8,7 @@ import Favorite from "../Favorite";
 import {useDispatch, useSelector} from "react-redux";
 import {setAddressValue, setMapActive} from "../../redux/rolls/rollsSlice";
 import {GetUserGeo} from "../../utils/getUserGeo";
+import {Link} from "react-router-dom";
 
 const Header = () => {
 
@@ -48,9 +49,9 @@ const Header = () => {
                         <!--<img src="/wp-content/uploads/2022/06/mob-menu-icon.svg">-->
                     </div>*/}
 
-                    <a href="https://bfokin.ru" className={s.logo}>
+                    <Link to="/" className={s.logo}>
                         <img src={logo}/>
-                    </a>
+                    </Link>
 
                     <div className={s.info}>
                         <a className={s.infoLink} href="/dostavka-i-oplata/">Доставка и оплата</a>

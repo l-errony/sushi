@@ -1,0 +1,135 @@
+.popup{
+    position: fixed;
+    /*top: var(--header-h);*/
+    top: 150px;
+    left: 0;
+    width: 100%;
+    /*height: calc(100% - var(--header-h));*/
+    height: calc(100% - 150px);
+    background: var(--body-bg);
+    z-index: 100000;
+}
+.container{
+    height: 100%;
+    margin: auto;
+    max-width: 1440px;
+}
+.back{
+
+}
+.close{
+    position: absolute;
+    right: 118px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.inner{
+    padding: 40px 112px 0 112px;
+    position: relative;
+}
+.breadcrumbs{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 500;
+    display: flex;
+}
+.brArrow{
+    margin: 0 8px 8px;
+}
+.main{
+    margin-top: 35px;
+    display: flex;
+    gap: 64px;
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    box-shadow: 0px 3px 12px 0px #1111110a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 12px;
+}
+.right{
+    right: -88px;
+}
+.left{
+    left: -88px;
+}
+.left img{
+    transform: rotate(180deg);
+}
+.cover{
+    width: 420px;
+    height: 420px;
+    position: relative;
+}
+.image{
+    width: inherit;
+    height: inherit;
+}
+.image img{
+    width: inherit;
+    height: inherit;
+}
+.swipe{
+    position: absolute;
+    z-index: 5;
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    left: 30px;
+    top: 30px;
+}
+.info{
+    width: 548px;
+}
+.name{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+}
+.name h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    margin: 0;
+}
+.description{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.volume{
+    font-size: 20px;
+    color: #8C8C8C;
+    margin: 12px 0;
+}
+.price{
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 24px;
+}
+.amount{
+
+}
+.volume{
+    font-size: 20px;
+    color: #8C8C8C;
+    margin: 12px 0;
+}
+.oldPrice{
+
+}
+.rouble{
+    margin-left: 4px;
+}

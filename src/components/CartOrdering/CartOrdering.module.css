@@ -1,0 +1,44 @@
+.positions{
+    width: 510px;
+}
+.cartTitle{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.items{
+    position: relative;
+}
+.clear{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.clearButton{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 16px;
+}
+/*---------------------------------------------*/
+.empty{
+    padding-top: 12vh;
+    padding-bottom: 29vh;
+}
+.emptyTitle{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.emptyIcon{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.emptyIcon img{
+    width: inherit;
+    height: inherit;
+}
+/*------------------------------------*/

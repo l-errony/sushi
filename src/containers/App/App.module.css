@@ -1,0 +1,29 @@
+/*.wrapper {
+!*
+!*  width: calc(100vw - 100px);*!
+  height: 100%;
+  width: 100%;
+  margin: 50px auto;
+  color: var(--body-color);
+  background: var(--body-bg);
+  font-family: 'Cormorant SC', sans-serif;
+  !*border-radius: 10px;*!
+*!
+  display: block;
+}*/
+
+/*.container{
+  max-width: 1440px;
+  margin: auto;
+}
+main {
+  padding-top: calc(85px + 32px);
+
+}*/
+/*.containerInner{
+  padding-left: 118px;
+  padding-right: 118px;
+}*/
+
+
+

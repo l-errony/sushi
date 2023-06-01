@@ -1,0 +1,46 @@
+.modal{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    /*background: rgba(0, 0, 0, 0.4);*/
+    top: 0;
+    left: 0;
+    z-index: 500000;
+    transition: .5s;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    opacity: 0;
+    pointer-events: none;
+}
+.modal.active{
+    opacity: 1;
+    pointer-events: visible;
+}
+.content{
+    position: absolute;
+    right: 0px;
+    padding: 72px 40px 72px 32px;
+    background: var(--body-bg);
+    height: inherit;
+    width: 510px;
+    transition: .5s;
+    transform: scale(0.5);
+}
+
+.content.active{
+    transform: scale(1);
+    transition: .5s;
+}
+.close{
+    position: absolute;
+    top: 32px;
+    right: 40px;
+    cursor: pointer;
+}
+
+/*---------------------------------------*/
+
+.modalMap{
+    width: 796px;
+    padding: 0;
+}

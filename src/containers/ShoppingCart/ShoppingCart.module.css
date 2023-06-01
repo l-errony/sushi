@@ -1,0 +1,11 @@
+a{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    gap: 8px;
+}
+.back img{
+    margin-right: 8px;
+}
+

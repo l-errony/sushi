@@ -1,0 +1,54 @@
+.price{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    font-family: 'Cormorant SC', sans-serif;
+    color: #fff;
+
+}
+.discount {
+    color: #ffa900;
+}
+.oldPrice{
+    font-size: 18px;
+    margin-left: 8px;
+    color: #c5c5c5;
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.oldPrice:before{
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    background: #ffa900;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+}
+/*.priceAmount{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    font-family: 'Cormorant SC', sans-serif;
+    color: inherit;
+}*/
+/*
+.old{
+    font-size: 18px;
+    margin-left: 8px;
+    color: #c5c5c5;
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+*/
+
+.rouble{
+    margin-left: 4px;
+}

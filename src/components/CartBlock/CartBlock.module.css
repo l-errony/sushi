@@ -1,0 +1,16 @@
+.category{
+    margin-bottom: 4px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    /*grid-column-gap: 20px;
+    grid-row-gap: 20px;*/
+}
+.tittle{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-family: 'Cormorant SC', sans-serif;
+}

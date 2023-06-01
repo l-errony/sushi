@@ -1,0 +1,64 @@
+/*----------------------------------*/
+.complete{
+    position: relative;
+}
+.fullCart{
+    max-height: calc(107px * 6);
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding-right: 32px;
+    position: relative;
+}
+
+.fullCart::-webkit-scrollbar {
+    width: 6px;
+}
+
+.fullCart::-webkit-scrollbar-thumb {
+    width: 4px;
+    background: linear-gradient(180deg, var(--gr-color-l), var(--gr-color-r));
+    border-radius: 8px;
+}
+
+.fullCart:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    height: 28px;
+    width: calc(100% - 6px);
+    background: linear-gradient(180deg, #fff0, #fff);
+    background: transparent;
+}
+
+.empty{
+    display: block;
+}
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.icon{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.icon img{
+    width: inherit;
+    height: inherit;
+}
+
+.button{
+    width: calc(100% - 52px);
+    height: 100%;
+    background: linear-gradient(90deg, var(--gr-color-l), var(--gr-color-r));
+    color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 500;
+    padding: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: 20px;
+}

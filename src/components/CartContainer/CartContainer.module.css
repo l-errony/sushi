@@ -1,0 +1,9 @@
+.ordering{
+    margin-top: 24px;
+    position: relative;
+}
+.orderingInner{
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}

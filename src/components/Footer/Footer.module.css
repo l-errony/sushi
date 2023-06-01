@@ -1,0 +1,48 @@
+.footerContainer{
+    flex-shrink: 0;
+    background: #202020;
+
+}
+.container{
+    max-width: 1440px;
+    margin: 80px auto auto;
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+.footerInner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 112px;
+    padding-left: 112px;
+}
+.logo{
+    margin-right: 122px;
+    width: 190px;
+    height: 52px;
+}
+.linksRow{
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 124px;
+    margin-right: 150px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    max-width: 252px;
+}
+.contactLink{
+    margin-bottom: 16px;
+    font-weight: 600;
+}

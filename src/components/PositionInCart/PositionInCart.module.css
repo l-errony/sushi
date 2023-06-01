@@ -1,0 +1,136 @@
+
+
+.singlePosition{
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #D4D5DD;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.photo{
+    width: 88px;
+    height: 88px;
+    min-width: 88px;
+    min-height: 88px;
+    max-width: 88px;
+    max-height: 88px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.photo img{
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+}
+.info{
+    width: 100%;
+}
+.name{
+    font-weight: 500;
+    margin-bottom: 14px;
+    /* display: flex; */
+    /* align-items: center; */
+    font-size: 17px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    font-weight: 600;
+    display: flex;
+    font-size: 22px;
+}
+.rouble{
+    margin-left: 4px;
+}
+.volume{
+    color: #8C8C8C;
+    font-size: 18px;
+}
+.amountSelect{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    position: relative;
+    margin-left: 32px;
+    background: var(--header-bg);
+    padding: 10px 16px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    height: 22px;
+}
+
+.changeValue{
+    width: 16px;
+    height: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.minus:before{
+    content: ' ';
+    position: absolute;
+    width: 12px;
+    height: 1px;
+    display: block;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, calc(-50% + 0.5px));
+}
+.disabled{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.plus:before{
+    content: ' ';
+    position: absolute;
+    width: 12px;
+    height: 1px;
+    display: block;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, calc(-50% + 0.5px));
+}
+.plus:after{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    display: block;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(calc(-50% + 0.5px), -50%);
+    border-radius: 4px;
+}
+
+.value{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.remove{
+    display: inline-flex;
+    margin-left: 5px;
+    position: absolute;
+    right: -32px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.remove img {
+    cursor: pointer;
+}

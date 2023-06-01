@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sushi/static/css/main.327bb4da.css",
+    "main.js": "/sushi/static/js/main.58647cc6.js",
+    "static/media/1-1-banner-kurer.jpg": "/sushi/static/media/1-1-banner-kurer.ba0ce5b8cb60440838ba.jpg",
+    "static/media/bn-3.jpg": "/sushi/static/media/bn-3.0f2dd16cb1ce276cfaac.jpg",
+    "static/media/bn-2.jpg": "/sushi/static/media/bn-2.77ed44b3de542b884782.jpg",
+    "static/media/logo-main.svg": "/sushi/static/media/logo-main.d629f315ac8c3f9754b2bee970acd1ca.svg",
+    "static/media/empty-cart.svg": "/sushi/static/media/empty-cart.cc6ced3bf5fe1dae4bf0c8bcfc6ad969.svg",
+    "static/media/shopping-cart.svg": "/sushi/static/media/shopping-cart.6858a4d79d797a5a1b69462880af7d1e.svg",
+    "static/media/arrow-right-short.svg": "/sushi/static/media/arrow-right-short.00c9dd1c37431da702be2520e37f5412.svg",
+    "static/media/search-icon.svg": "/sushi/static/media/search-icon.1b4b9fa8f3cc46fe8f9d169b46a295e3.svg",
+    "index.html": "/sushi/index.html",
+    "static/media/address-field-icon.svg": "/sushi/static/media/address-field-icon.0ed8dc24476c2eda1bef7234fe5d0115.svg",
+    "static/media/back-arrow.svg": "/sushi/static/media/back-arrow.2d3ca0f612398855087d730f015f8b00.svg",
+    "static/media/remove-from-cart.svg": "/sushi/static/media/remove-from-cart.30b4b4269ee96ff8fd5ff2ce26e21ea5.svg",
+    "static/media/close-popup-icon-white.svg": "/sushi/static/media/close-popup-icon-white.14b63465014fd0c4e87a91762a4dd3b2.svg",
+    "static/media/close-popup-icon.svg": "/sushi/static/media/close-popup-icon.b7af44ce956b24e077e9d8a36dc8b199.svg",
+    "static/media/breadcumbs-arrow.svg": "/sushi/static/media/breadcumbs-arrow.8b2e2c96144c1e2fe157bfd8d2333911.svg",
+    "main.327bb4da.css.map": "/sushi/static/css/main.327bb4da.css.map",
+    "main.58647cc6.js.map": "/sushi/static/js/main.58647cc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.327bb4da.css",
+    "static/js/main.58647cc6.js"
+  ]
+}
